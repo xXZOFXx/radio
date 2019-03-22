@@ -31,6 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
   AudioPlayer audioPlayer = new AudioPlayer();
   AudioProvider audioProvider = new AudioProvider(url);
 
+  
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
